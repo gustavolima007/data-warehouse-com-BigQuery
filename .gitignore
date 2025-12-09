@@ -1,1 +1,15 @@
-resources/data
+# Diretórios locais
+.vscode/
+.idea/
+
+# Dados grandes ou temporários
+resources/data/
+resources/data/**/*.zip
+*.tmp
+*.log
+
+# Saídas de notebooks
+*.ipynb_checkpoints/
+
+# Documentação gerada
+docs/public/

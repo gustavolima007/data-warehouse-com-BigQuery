@@ -1,22 +1,54 @@
-# Estrutura do Curso de BigQuery (Nível Inicial)
+# Trilha Data Warehouse com BigQuery — Nível Inicial
 
-Este repositório abriga o material do primeiro curso da trilha de Data Warehouse com BigQuery. A ideia é manter toda a introdução organizada e pronta para ser complementada pelos módulos intermediário e avançado que virão depois.
+Este repositório guarda o material do primeiro curso da trilha **Data Warehouse com BigQuery**. Aqui você encontra os fundamentos de Big Data, criação do projeto no Google Cloud, primeiros passos em SQL e práticas guiadas. Todo o conteúdo foi organizado para que seja simples expandir para os módulos intermediário e avançado.
 
-## O que há neste curso
+## Objetivos
 
-- **Módulo 1 a 10**: cada módulo possui seu próprio diretório em `modules/`, com o conteúdo programático, links para arquivos relevantes e sugestões de exercícios práticos.
-- **Recursos**: arquivos SQL, notebooks, e datasets dedicados estão em `resources/`, separados por tipo para facilitar o estudo.
-- **Próximos passos**: quando o módulo intermediário estiver disponível, crie um diretório `modules/` correspondente; este README pode ser expandido com um índice global para toda a trilha.
+- Entender o papel do BigQuery dentro de um ecossistema de Data Warehouse.
+- Montar um ambiente de estudo com datasets de apoio e scripts reutilizáveis.
+- Executar consultas básicas e intermediárias (DQL, DML, DDL) com boas práticas de performance.
+- Criar uma base sólida para módulos futuros (modelagem dimensional, otimizações e orquestração).
 
-## Navegando pelo repositório
+## Pré-requisitos recomendados
 
-1. Abra `modules/` para visualizar os módulos do nível inicial (cada uma das pastas `module-01`, `module-02`, etc.).
-2. Consulte `resources/` para explorar exemplos de SQL, dados fictícios e notebooks usados durante as aulas.
-3. Use `docs/` (ainda a criar) no futuro para anotações complementares ou guias passo a passo.
+1. Conta Google Cloud com acesso ao BigQuery (um projeto de testes é suficiente).
+2. Git configurado localmente para clonar o repositório.
+3. Editor de SQL / VS Code ou Cloud Shell Editor.
+4. (Opcional) Python/Notebooks se desejar replicar análises em `resources/notebooks/`.
 
-## Estrutura de recursos
+## Estrutura
 
-- `resources/sql/`: scripts SQL das aulas (DQL, DML, DDL, joins, etc.).
-- `resources/data/`: arquivos CSV/JSON usados nos exercícios práticos.
-- `resources/notebooks/`: notebooks com demos e análises.
-- `resources/notes/` e `resources/checklists/`: lugares para registrar aprendizagens e planos de ação.
+```
+.
+├── modules/                # 10 módulos introdutórios (um diretório por tema)
+├── resources/
+│   ├── data/               # Datasets CSV/JSON usados nos exercícios
+│   ├── sql/                # Scripts comentados para cada aula
+│   ├── notebooks/          # Notebooks auxiliares
+│   ├── notes/              # Anotações e resumos por módulo
+│   └── checklists/         # Planos de estudo e revisões
+└── docs/ (planejado)       # Guias extras para futuras trilhas
+```
+
+## Como usar
+
+1. Clone o repositório e abra o módulo desejado em `modules/`.
+2. Leia o README do módulo para contexto, objetivos e exercícios daquela etapa.
+3. Carregue os datasets necessários conforme descrito em `resources/README.md`.
+4. Execute os scripts SQL em `resources/sql/` na sequência indicada, adaptando para o seu projeto.
+5. Registre aprendizados em `resources/notes/` e marque os itens das checklists.
+
+## Mapa dos módulos
+
+| Módulo | Tema | Resultado esperado |
+| --- | --- | --- |
+| 01 | Introdução ao Big Data | Diferenciar DW, Data Lake e Lakehouse |
+| 02 | O que é BigQuery | Entender arquitetura e casos de uso |
+| 03 | Criação do projeto GCP | Criar projeto, billing e dataset inicial |
+| 04 | Conjuntos e Tabelas | Operar datasets/tabelas no console e CLI |
+| 05 | Ingestão e Integração | Testar cargas por UI, CLI e arquivos |
+| 06 | Introdução ao SQL | Revisar DQL básico com exemplos práticos |
+| 07 | Filtragem e Ordenação | Aplicar WHERE, ORDER BY, LIMIT |
+| 08 | Agrupamento e Junção | Trabalhar com GROUP BY, HAVING e JOINs |
+| 09 | Visualizações e Painéis | Exportar resultados para BI / Looker |
+| 10 | Prática guiada | Consolidar aprendizados em estudo de caso |
