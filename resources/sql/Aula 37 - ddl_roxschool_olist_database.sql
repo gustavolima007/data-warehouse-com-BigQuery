@@ -15,10 +15,10 @@
 -- ============================================================
 -- Bloco de variáveis (ajuste ao seu ambiente)
 -- ============================================================
-DECLARE project_id STRING DEFAULT 'bigquery-iniciante-roxschool';
+DECLARE project_id STRING DEFAULT 'pythongl';
 DECLARE dataset_id STRING DEFAULT 'roxschool_olist_ecommerce';
-DECLARE bucket     STRING DEFAULT 'roxschool_olist_dataset';
-DECLARE prefix     STRING DEFAULT 'olist_database';
+DECLARE bucket     STRING DEFAULT 'bucket_gl';
+DECLARE prefix     STRING DEFAULT 'Brazilian E-Commerce Public Dataset by Olist';
 DECLARE location   STRING DEFAULT 'US';
 
 -- ============================================================
