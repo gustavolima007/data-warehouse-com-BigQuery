@@ -13,3 +13,5 @@ resources/data/**/*.zip
 
 # Documentação gerada
 docs/public/
+.zencoder
+.zenflow

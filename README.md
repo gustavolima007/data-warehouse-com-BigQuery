@@ -1,6 +1,20 @@
-# Trilha Data Warehouse com BigQuery — Nível Inicial
+# Trilha Data Warehouse com BigQuery — Nível 1
 
 Este repositório guarda o material do primeiro curso da trilha **Data Warehouse com BigQuery**. Aqui você encontra os fundamentos de Big Data, criação do projeto no Google Cloud, primeiros passos em SQL e práticas guiadas. Todo o conteúdo foi organizado para que seja simples expandir para os módulos intermediário e avançado.
+
+## Nível 2 (resumo)
+
+Panorama do conteúdo intermediário e avançado previsto para a trilha, cobrindo funções SQL avançadas, otimização de consultas e fundamentos de Machine Learning aplicados ao BigQuery ML.
+
+| Módulo | Tema | Resumo |
+| --- | --- | --- |
+| 01 | Funções SQL Avançadas | Window functions, funções de valor/aggregate, geoespaciais, formatação, datas e regex |
+| 02 | Otimização de Consultas | Estratégias de performance, clusterização, particionamento, boas práticas e plano de execução |
+| 03 | Fundamentos de Machine Learning | Conceitos, tipos de aprendizado, algoritmos e métricas principais |
+| 04 | Introdução ao BigQuery ML | Conceitos, modelos suportados, criação, avaliação e inferência |
+| 05 | Modelos com BigQuery ML | Classificação, regressão, séries temporais e clusterização com avaliação |
+| 06 | Prática Guiada | Casos práticos de vendas, crédito, segmentação e recomendação |
+| 07 | Encerramento | Revisão e próximos passos |
 
 ## Objetivos
 
